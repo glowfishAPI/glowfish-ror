@@ -68,14 +68,14 @@ It's important to note that predicting will throw an error if you have not train
 
 **The Response**
 
-<Response> {
-  @code = [200-500]
-  @message = "STRING MESSAGE FOR API RETURN"
-  
-  @data = {...data...}
-  @errors = {...key value errors...}
-  @metrics = {...timing and counting metrics from the API...}
-}
+	<Response> {
+	  @code = [200-500]
+	  @message = "STRING MESSAGE FOR API RETURN"
+	  
+	  @data = {...data...}
+	  @errors = {...key value errors...}
+	  @metrics = {...timing and counting metrics from the API...}
+	}
 
 **Further Documentation**
 
