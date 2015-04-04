@@ -51,7 +51,6 @@ It's important to note that predicting will throw an error if you have not train
     }, {...}) # config options
     
 *Filter Train*
-    # userids, productids, then ratings
     response = glower.filter_train(
       [1, 2, 3, 4, ...etc] #userids,
       [1, 2, 3, 4, ...etc] #productids,
@@ -59,7 +58,6 @@ It's important to note that predicting will throw an error if you have not train
     )
     
 *Filter Predict*
-    # userids, productids, then ratings
     response = glower.filter_predict(
       [1, 2, 3, 4, ...etc] #userids,
       [1, 2, 3, 4, ...etc] #productids,
